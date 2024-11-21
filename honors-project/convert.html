@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statblocks to Ironsworn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-header">
+        <h1>Ironsworn Translator</h1>
+    </div>
+    <div class="stat-input">
+        
+        <form>
+            <label for="ruleset">Choose Initial Ruleset:</label><br>
+            <select name="ruleset" id="ruleset">
+                <option value="dnd5e">D&D 5e</option>
+                <option value="pf1e">Pathfinder 1e</option>
+                <option value="pf2e">Pathfinder 2e</option>
+            </select> <br/>
+            <label for="cName">Creature Name:</label><br>
+            <input type="text" id="cName" name="cName" placeholder="Wyvern"><br>
+            <label for="cr">Creature Rating (CR):</label><br>
+            <input type="text" id="cr" name="cr" placeholder="6"><br>
+            <label for="details">Creature Details:</label><br>
+            <textarea name="details" id="details" placeholder="Attack(s): Bite, Tail, Breath Weapon&#10;Description: Wyvern"></textarea><br>
+            <button>Clear</button>
+        </form>
+        <button id="submit">Submit</button>
+    </div>
+    <div class="stat-output">
+        <h3>Results</h3>
+        <textarea id="results" name="results"></textarea>
+    </div>
+    <div class="footer">
+        <h1>About</h1>
+        <p>info</p>
+    </div>
+    <script src="toIronsworn.js"></script>
+</body>
+</html>

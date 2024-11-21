@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #D3D9D4;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #124E66;
+    color: #ddd;
+    height: 150px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
+
+h1 {
+    font-size: 36px;
+    border: 1px;
+    padding: 10px 0 0 0;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    width: 80px;
+    height: 30px;
+    background-color: #748D92;
+    color: #ddd;
+    margin: 10px
+}
+
+button:hover {
+    background-color: #124E66;
+}
+
+.stat-input {
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.stat-input label {
+    font-size: 24;
+}
+
+.stat-output {
+    text-align: center;
+}
